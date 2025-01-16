@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="24" nextobjectid="1">
+ <tileset firstgid="1" source="atlas_floor-16x16.tsx"/>
+ <layer id="23" name="regions" width="4" height="4">
+  <data encoding="csv">
+1,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="input_Ground1" width="4" height="4" visible="0">
+  <data encoding="csv">
+1,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="18" name="output1_Ground1" width="4" height="4">
+  <properties>
+   <property name="Probability" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+1,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="19" name="output2_Ground1" width="4" height="4">
+  <properties>
+   <property name="Probability" value="0.15"/>
+  </properties>
+  <data encoding="csv">
+2,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="20" name="output3_Ground1" width="4" height="4">
+  <properties>
+   <property name="Probability" value="0.2"/>
+  </properties>
+  <data encoding="csv">
+3,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="21" name="output4_Ground1" width="4" height="4">
+  <properties>
+   <property name="Probability" value="0.15"/>
+  </properties>
+  <data encoding="csv">
+9,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+</map>
