@@ -1,0 +1,22 @@
+# Build artifacts
+obj/
+game
+*.o
+
+# Editor files
+*.tiled-project
+*.tiled-session
+
+# OS metadata
+*:Zone.Identifier
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archives (not needed in repo)
+*.zip
